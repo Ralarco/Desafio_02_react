@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(52, 34, 58);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.loginContainer {
+  width: 85%;
+  min-width: 400px;
+  padding: 30px;
+  font-family: 'Roboto Slab', serif;
+  border: solid 5px #fff;
+  border-radius: 15px;
+  background-color: rgb(223, 198, 231);
+  text-align: left;
+  font-weight: 700;
 }
